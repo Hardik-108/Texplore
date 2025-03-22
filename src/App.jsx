@@ -425,6 +425,59 @@ function App() {
       <div id="contact-section">
         <ContactUs />
       </div>
+
+      {/* Footer Section */}
+      <footer className="w-full border-t-1 border-gray-400 bg-[rgba(255,255,255,0.123)] backdrop-blur-[15px] shadow-[0px_0px_15px_#72a1de68] py-8 px-4 md:px-10">
+        <div className="max-w-7xl mx-auto flex flex-col items-center gap-6">
+          <p className="text-white text-lg md:text-xl text-center">
+            "Our mission is to empower the next generation of innovators through
+            hands-on experience and collaborative learning."
+          </p>
+
+          <div className="flex gap-6 mt-4">
+            <a
+              href="https://instagram.com/your-handle"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-75 transition-opacity"
+            >
+              <img
+                className="invert h-6 md:h-8"
+                src="/assets/insta.svg"
+                alt="Instagram"
+              />
+            </a>
+            <a
+              href="https://twitter.com/your-handle"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-75 transition-opacity"
+            >
+              <img
+                className="invert h-6 md:h-8"
+                src="/assets/twitter.svg"
+                alt="Twitter"
+              />
+            </a>
+            <a
+              href="https://linkedin.com/company/your-company"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-75 transition-opacity"
+            >
+              <img
+                className="invert h-6 md:h-8"
+                src="/assets/linkedin.svg"
+                alt="LinkedIn"
+              />
+            </a>
+          </div>
+
+          <p className="text-white text-sm mt-4">
+            © {new Date().getFullYear()} Texplore. All rights reserved.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
