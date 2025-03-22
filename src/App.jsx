@@ -35,10 +35,10 @@ function App() {
       </div>
       {/*-------- Navbar-------- */}
       <nav className="flex justify-between fixed  top-0 right-0 items-center w-full h-[70px] px-4 md:px-10 py-3 md:py-5 bg-[rgba(255,255,255,0.123)] backdrop-blur-[15px] shadow-[0px_0px_15px_#72a1de68] z-5">
-        <div className="logo flex gap-3 h-full items-center">
-          <img className="invert h-8 md:h-10" src="/assets/logo.svg" alt="" />
+        <div className="logo flex h-full items-center">
+          <img className="h-18 md:h-22 " src="/assets/logo1.png" alt="" />
           <h1 className="text-white text-2xl md:text-3xl font-bold">
-            <span className="gradient">Tex</span>plore
+            <span className="text-blue-300">Tex</span>plore
           </h1>
         </div>
 
