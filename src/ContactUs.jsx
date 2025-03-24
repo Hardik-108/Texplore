@@ -11,7 +11,7 @@ const ContactUs = () => {
           <h2 className="text-3xl md:text-5xl text-[#011245] font-semibold">
             Lets Get in touch
           </h2>
-          <p className="text-base md:text-2xl font-semibold">
+          <p className="text-base md:text-2xl font-semibold text-justify">
             Have questions, suggestions, or just want to connect? We'd love to
             hear from you! Whether you're interested in joining our club,
             collaborating on exciting projects, or simply learning more about

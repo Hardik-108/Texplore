@@ -227,7 +227,7 @@ function App() {
       {/* Section 2 */}
       <section
         id="founder-section"
-        className="section-2 py-20 md:py-60 border-t-1 border-gray-400 w-full flex flex-col justify-center items-center gap-6 md:gap-10 px-4"
+        className="section-2 py-20 md:py-50 border-t-1 border-gray-400 w-full flex flex-col justify-center items-center gap-6 md:gap-10 px-4"
       >
         <h1 className="autoShow text-white text-4xl md:text-7xl font-bold text-center">
           Are You a Founder?
@@ -236,7 +236,7 @@ function App() {
           Joiner? Learner?
         </h1>
 
-        <p className="autoShow text-white text-xl md:leading-12 md:text-4xl px-4 md:px-40 text-center">
+        <p className="autoShow text-white text-xl md:leading-12 md:text-4xl px-4 md:px-40 text-justify">
           Whether you're an experienced entrepreneur or just taking your first
           steps, Texplore Community is the perfect place to explore, build, and
           innovate. We offer a startup-like environment where creativity meets
