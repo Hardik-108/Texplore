@@ -192,7 +192,7 @@ function App() {
             Experience the <span className="gradient">Thrill of a</span> Startup
             Without <span className="gradient">Starting One!</span>
           </h1>
-          <p className="text-white text-lg md:text-3xl hero-para mt-6 md:mt-10 max-w-[550px] mb-8 md:mb-[40px] leading-[1.4] md:leading-[25px]">
+          <p className="text-white text-lg md:text-3xl  hero-para mt-6 md:mt-10 max-w-[550px] mb-8 md:mb-[40px]  md:leading-[30px] text-justify ">
             Still confused about what to do? You're not alone, and that's
             exactly why we're here! Step into a space where ideas take flight,
             where entrepreneurship meets technology, marketing blends with
@@ -236,7 +236,7 @@ function App() {
           Joiner? Learner?
         </h1>
 
-        <p className="autoShow text-white text-xl md:text-4xl px-4 md:px-40 text-center">
+        <p className="autoShow text-white text-xl md:leading-12 md:text-4xl px-4 md:px-40 text-center">
           Whether you're an experienced entrepreneur or just taking your first
           steps, Texplore Community is the perfect place to explore, build, and
           innovate. We offer a startup-like environment where creativity meets
